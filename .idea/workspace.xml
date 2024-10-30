@@ -5,21 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e44f09c9-d22c-4bdc-a957-c11a1632f0d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/AdminPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestBases/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/AdminPanel.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssuredTask/AddCandidateAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssuredTask/DeleteCandidateAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/TestRunners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/AdminPanelSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Reports/ExtentReportListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EndPoints/GetTokenAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/AdminPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBases/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestBases/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/AdminPanel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/AdminPanel.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssuredTask/AddCandidateAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EndPoints/AddCandidateAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssuredTask/DeleteCandidateAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EndPoints/DeleteCandidateAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/AdminPanelSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/AdminPanelSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +38,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Abdullahmostafah"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Abdullahmostafah/FlairsTechSelenium",
+    "accountId": "bb9ff439-99ef-4219-b80b-68a1ad6ecd0a"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2o7CJ1dBRVIXvJuR5Xuk6bMjWYj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,13 +61,49 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.TestRunners.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Abdulla/IdeaProjects/FlairsTech_RestAssured/src/main/java/org/example/Main.java"
+    "last_directory_selection": "C:/Users/abdul/IdeaProjects/FlairsTechSelenium/src/test/java",
+    "onboarding.tips.debug.path": "C:/Users/Abdulla/IdeaProjects/FlairsTech_RestAssured/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abdul\IdeaProjects\FlairsTechSelenium\src\test\resources" />
+      <recent name="C:\Users\abdul\IdeaProjects\FlairsTechSelenium\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TestBases" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestRunners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FlairsTech_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.TestRunners" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunners" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
