@@ -1,24 +1,18 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-
 <suite name="Suite" parallel="tests" thread-count="4">
 
-    <listeners>
-        <listener class-name="Reports.ExtentReportListener"/>
-    </listeners>
-
-    <test name="UITest">
+    <test name="OrangeHRM UI Tests">
         <classes>
-            <class name="EndPoints.Status"/>
+            <class name="Runners.TestRunner"/>
         </classes>
     </test>
 
-    <test name="BackendTest">
+    <test name="OrangeHRM API Tests">
         <classes>
             <class name="EndPoints.GetTokenAPI"/>
             <class name="EndPoints.AddCandidateAPI"/>
             <class name="EndPoints.DeleteCandidateAPI"/>
         </classes>
     </test>
-
 
 </suite>

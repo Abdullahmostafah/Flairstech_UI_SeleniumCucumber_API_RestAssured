@@ -1,36 +1,43 @@
 package EndPoints;
 
-import TestBases.TestBase;
-import io.restassured.http.ContentType;
+import Base.APITestBase;
+import Utils.ConfigReaderWriter;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.anyOf;
-import static org.hamcrest.Matchers.is;
+import static io.restassured.RestAssured.*;
+import static Utils.ConfigReaderWriter.getPropKey;
 
-public class GetTokenAPI extends TestBase {
-
+public class GetTokenAPI extends APITestBase {
     @Test
     public void getToken() {
-        baseURI();
-        String requestBody = "{\"username\": \"Admin\", \"password\": \"admin123\"}";
+        String requestBody = String.format(
+                "{\"username\": \"%s\", \"password\": \"%s\"}",
+                getPropKey("api.username"),
+                getPropKey("api.password")
+        );
+
         Response response = given()
-                .contentType(ContentType.JSON)
+                .spec(requestSpec)
                 .body(requestBody)
                 .when()
-                .post("/auth/validate")
+                .post("/auth/login")
                 .then()
-                .statusCode(200)  // Expecting either 200
+                .statusCode(200)
                 .extract().response();
-        response.prettyPrint();
 
-        if (response.getStatusCode() == 200) {
-            accessToken = response.jsonPath().getString("accessToken");
-            setAccessToken(accessToken);
-            System.out.println("Access Token: " + accessToken);
-        } else
-            System.out.println("Error: " + response.jsonPath().getString("message"));
+        // Handle unexpected status codes
+        if (response.getStatusCode() != 200) {
+            throw new RuntimeException("Failed to get token. Status: " + response.getStatusCode() + ", Response: " + response.getBody().asString());
+        }
+
+        String token = response.jsonPath().getString("data.token");
+        if (token == null || token.isEmpty()) {
+            throw new RuntimeException("Token not found in response: " + response.getBody().asString());
+        }
+
+        setAccessToken(token);
+        ConfigReaderWriter.setPropKey("accessToken", token);
+        System.out.println(token);
     }
-
 }

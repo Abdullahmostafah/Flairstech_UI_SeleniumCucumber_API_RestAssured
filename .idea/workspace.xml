@@ -5,23 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e44f09c9-d22c-4bdc-a957-c11a1632f0d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Reports/ExtentReportListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EndPoints/GetTokenAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Base/APITestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Base/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Runners/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/ConfigReaderWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/ScreenshotUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/AdminPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/AdminPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestBases/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestBases/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/AdminPanel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/AdminPanel.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssuredTask/AddCandidateAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EndPoints/AddCandidateAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssuredTask/DeleteCandidateAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EndPoints/DeleteCandidateAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/AdminPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Reports/ExtentReportListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBases/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EndPoints/AddCandidateAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EndPoints/AddCandidateAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EndPoints/DeleteCandidateAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EndPoints/DeleteCandidateAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EndPoints/GetTokenAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EndPoints/GetTokenAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/AdminPanel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/AdminPanel.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/TestRunners.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/AdminPanelSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/AdminPanelSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +45,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Abdullahmostafah"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Abdullahmostafah&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Abdullahmostafah/FlairsTechSelenium",
-    "accountId": "bb9ff439-99ef-4219-b80b-68a1ad6ecd0a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Abdullahmostafah/FlairsTechSelenium&quot;,
+    &quot;accountId&quot;: &quot;bb9ff439-99ef-4219-b80b-68a1ad6ecd0a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2o7CJ1dBRVIXvJuR5Xuk6bMjWYj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,17 +69,27 @@
   "keyToString": {
     "JUnit.TestRunners.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.GetTokenAPI.executor": "Run",
+    "TestNG.GetTokenAPI.getToken.executor": "Run",
+    "TestNG.TestRunner.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/abdul/IdeaProjects/FlairsTechSelenium/src/test/java",
+    "last_opened_file_path": "C:/Users/abdul/IdeaProjects/FlairsTechSelenium/src/test/resources",
     "onboarding.tips.debug.path": "C:/Users/Abdulla/IdeaProjects/FlairsTech_RestAssured/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abdul\IdeaProjects\FlairsTechSelenium\src\test\resources" />
+      <recent name="C:\Users\abdul\IdeaProjects\FlairsTechSelenium\src\test\java" />
+      <recent name="C:\Users\abdul\IdeaProjects\FlairsTechSelenium\src\main\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\abdul\IdeaProjects\FlairsTechSelenium\src\test\resources" />
       <recent name="C:\Users\abdul\IdeaProjects\FlairsTechSelenium\src\main\java" />
@@ -82,7 +98,7 @@
       <recent name="TestBases" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.GetTokenAPI.getToken">
     <configuration name="TestRunners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FlairsTech_RestAssured" />
       <extension name="coverage">
@@ -98,8 +114,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetTokenAPI" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FlairsTech_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EndPoints.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EndPoints" />
+      <option name="MAIN_CLASS_NAME" value="EndPoints.GetTokenAPI" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTokenAPI.getToken" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FlairsTech_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EndPoints.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EndPoints" />
+      <option name="MAIN_CLASS_NAME" value="EndPoints.GetTokenAPI" />
+      <option name="METHOD_NAME" value="getToken" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FlairsTech_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GetTokenAPI.getToken" />
+        <item itemvalue="TestNG.GetTokenAPI" />
+        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="JUnit.TestRunners" />
       </list>
     </recent_temporary>
